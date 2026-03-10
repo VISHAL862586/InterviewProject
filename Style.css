@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin-top:0;
+    height:70px;
+    width:100vw;
+    background-color:black;
+    color:aliceblue;
+    position:fixed;
+}
+
+ul{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+}
+li{
+    padding:5px;
+    margin:10px;
+    margin-top:20px;
+}
+li:hover{
+    font-size:20px;
+    border-bottom: 2px solid #e01919;
+}
+
+.navLeft{
+    margin-left:10px;
+    margin-top:20px;
+}
+
+.navRight{
+    margin-right:10px;
+    margin-top:10px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.navRight button{
+    padding:10px 10px;
+    border:1px solid rgb(244, 236, 236);
+    border-radius:4px;
+
+}
